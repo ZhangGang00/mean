@@ -1,5 +1,8 @@
 from numpy.testing import assert_allclose
 
+def mean(num_list):
+    return sum(num_list)/len(num_list)
+
 def mean_assert(num_list):
     assert len(num_list) != 0
     return sum(num_list)/len(num_list)
